@@ -30,3 +30,13 @@ A GPU is recommended to run this script. Also, you need to install several packa
 5. Define a callback to calculate a custom metric (F1).
 6. Finetune ELECTRA with the training data.
 7. Generate predictions for the test dataset (`./data/test.csv`).
+
+To run the script, follow next steps:
+- Clone the repository
+- Update the datasets path
+- Install the requirements
+- Run the script with `$ python classifier.py`
+- Check the predictions in `./output/predictions.csv`
+
+# Where can I learn more about NLP?
+You can check [this repository](https://github.com/ig-perez/nlp-roadmap). Have fun! :)

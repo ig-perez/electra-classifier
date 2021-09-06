@@ -352,7 +352,7 @@ if __name__ == "__main__":
         }
     ).sort_values(by=["id"])
 
-    results.to_csv("submission.csv", index=False)
+    results.to_csv("./output/predictions.csv", index=False)
 
     # 9. Check predictions
     temp_df = [prd_raw["id"], prd_raw["text"], results["id"], results["target"]]
